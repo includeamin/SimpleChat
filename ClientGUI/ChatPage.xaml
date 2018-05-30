@@ -1,0 +1,39 @@
+﻿<Page x:Class="ClientGUI.ChatPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ClientGUI"
+      mc:Ignorable="d" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      TextElement.FontWeight="Regular"
+      TextElement.FontSize="13"
+      TextOptions.TextFormattingMode="Ideal" 
+      TextOptions.TextRenderingMode="Auto"        
+      Background="{DynamicResource MaterialDesignDarkSeparatorBackground}"
+      FontFamily="{DynamicResource MaterialDesignFont}"
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="ChatPage">
+   <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1.2*"/>
+        </Grid.RowDefinitions>
+    <TextBox materialDesign:HintAssist.Hint="Type your message" Grid.Row="1" HorizontalAlignment="Left" Width="250" Margin="5,0,0,5" Name="message" Foreground="#DD000000" Background="#FFF7F7F7"></TextBox>
+       <Button  Grid.Row="1" HorizontalAlignment="Right" Width="40" Content="Send" FontSize="9" Padding="0" Name="SendMessage" Click="SendMessage_OnClick">
+            
+       </Button>
+       <ScrollViewer Grid.Row="0" Background="#FF282020" >
+           <ScrollViewer.VerticalScrollBarVisibility>Hidden</ScrollViewer.VerticalScrollBarVisibility>
+           <StackPanel Name="ChatPanel">
+              <materialDesign:Card HorizontalAlignment="Left" Margin="10" >
+                  <TextBlock></TextBlock>
+              </materialDesign:Card>
+            </StackPanel>
+       </ScrollViewer>
+    </Grid>
+
+      
+    
+</Page>

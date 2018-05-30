@@ -1,0 +1,7 @@
+C:\Users\Jamal\source\repos\InternetEng\Server\bin\Debug\Server.exe.config
+C:\Users\Jamal\source\repos\InternetEng\Server\bin\Debug\Server.exe
+C:\Users\Jamal\source\repos\InternetEng\Server\bin\Debug\Server.pdb
+C:\Users\Jamal\source\repos\InternetEng\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Jamal\source\repos\InternetEng\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Jamal\source\repos\InternetEng\Server\obj\Debug\Server.exe
+C:\Users\Jamal\source\repos\InternetEng\Server\obj\Debug\Server.pdb
